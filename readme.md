@@ -1,1 +1,10 @@
-### Esto es una prueba de escritura
+### Idea
+    .- La idea es conseguir crear diferentes landing de forma utomatica en base a una categoria que nosotros queramos. Ej: Crear una landing especifica para corgis (raza de un perro).
+    .- Esa landing tendra diferente informacion extraida de internet. 
+
+### Paso a seguir.
+    .- 1º Extraer los datos que queremos manejar.
+    
+
+
+    
