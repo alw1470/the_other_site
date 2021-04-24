@@ -9,5 +9,6 @@ class CorgirulesSpider(scrapy.Spider):
 
     def parse(self, response):             
         imagenes = response.xpath('//figure[@class="gallery-mosaic-asset__figure"]//@src').extract()
-        yield{'imagenes':imagenes}
+        for imagen in imagenes:
+            yield{'imagen':imagen}
         pass

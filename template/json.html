@@ -1,8 +1,9 @@
 {% extends 'bootstrap/base.html' %}
 {% block content %}
 <div class="gallery">
-{% for url in urls%}
-<img src ={{url}}>
+{% for corgi in corgis%}
+<img src ={{imagen}}>
 {%endfor%}
 </div>
 {% endblock %}
+
